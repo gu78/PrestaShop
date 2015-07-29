@@ -84,6 +84,9 @@ abstract class ModuleCore
     /** @var bool Status */
     public $active = false;
 
+    /** @var float price */
+    public $price;
+
     /** @var bool Is the module certified by addons.prestashop.com */
     public $trusted = false;
 
